@@ -2,7 +2,7 @@
 INI File Class for Arduino / ESP32 / ESP8266
 
 
-This class implements a really simple way to hnadle INI files for Arduino / ESP32 / ESP8266....
+This class implements a really simple way to handle INI files for Arduino / ESP32 / ESP8266....
 I have tried to make it indepedent of FileSystem. Tested only with SPIFFS
 
 
