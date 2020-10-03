@@ -51,12 +51,12 @@ password=myPass
     char password[PASSWORD_SIZE];
     [...]
 
-	configIni->getVariableString("Wifi","ssid","",ssid,SSID_SIZE);
-	configIni->getVariableString("Wifi","password","",password,SSID_SIZE);
+    configIni->getVariableString("Wifi","ssid","",ssid,SSID_SIZE);
+    configIni->getVariableString("Wifi","password","",password,SSID_SIZE);
 
 
     int tempResetCount=configIni->getVariableInt("General","resetCount",0);
-	configIni->setVariableInt("General","resetCount",tempResetCount+1);
+    configIni->setVariableInt("General","resetCount",tempResetCount+1);
 
     // At this point ssid and password have been set from INI variable from section Wifi
     // And new variable 'resetCount' has been set into section General
